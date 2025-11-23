@@ -1,0 +1,15 @@
+.blue-header {
+    color: blue;
+    text-decoration: underline;
+}
+
+.red-header {
+    color: red;
+    font-style: italic;
+}
+
+.green-header {
+    color: green;
+    border-left: 3px solid green;
+    padding-left: 10px;
+}

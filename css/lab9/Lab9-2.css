@@ -1,0 +1,20 @@
+.chapter-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: darkblue;
+}
+
+.main-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.footnote {
+    font-size: 14px;
+    color: gray;
+    font-style: italic;
+    border-top: 1px dashed gray;
+    padding-top: 5px;
+}
