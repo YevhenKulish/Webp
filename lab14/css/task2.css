@@ -1,0 +1,54 @@
+.block-1,
+.block-2,
+.block-3 {
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    min-height: 60px;
+}
+
+.block-1 {
+    background-color: #007bff;
+    color: white;
+}
+
+.block-2 {
+    background-color: #ffc107;
+    color: black;
+}
+
+.block-3 {
+    background-color: #dc3545;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 100vh;
+}
+
+.main-content {
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        min-height: 100vh;
+    }
+
+    .block-1,
+    .block-2,
+    .block-3 {
+        min-height: 33vh;
+    }
+}
